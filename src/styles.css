@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Jost', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.small-intro {
+  background-color: #E7816B;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 50px 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+.nav-link a:not(:nth-child(3n)) {
+  margin-right: 15px;
+}
+
+.nav-item {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+}
+
+.container {
+  padding: 0 150px;
+}
+
+.small-intro {
+  background-image: url('./assets/Group.svg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 260px;
+  padding-top: 70px;
+}
+
+.small-intro__title {
+
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.small-intro__text {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.intro-text {
+  padding: 0 38%;
+}
+
+.wrapper {
+  padding: 150px 0;
+}
+
+.blog-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-card__content {
+  width: 30%;
+  background: #FDF3F0;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  margin-right: 31px;
+  margin: 1.66%;
+}
+
+.blog-card__title {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  padding: 15px 60px;
+}
+
+.blog-card__text {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+  padding: 0 60px 20px;
+}
+
+.cart {
+  background-color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.foto {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-footer {
+  background-image: url('./assets/Group.svg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  height: 260px;
+  padding-top: 70px;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: -100px;
+  border-radius: 37px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-title {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  max-width: 320px;
+}
+
+.footer-text {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  Width: 456px;
+}
+
+.btn {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  border: none;
+  padding: 10px 10px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.footer-btn {
+  margin-top: 100px;
+}
+
+.designo-footer {
+  width: 100%;
+  height: 393px;
+  left: 0px;
+  top: 2403px;
+  background: #1D1C1E;
+  justify-content: space-around;
+  padding-top: 150px;
+
+
+}
+
+
+.designo-footer-intro {
+  display: flex;
+}
+
+
+.footer-item {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-right: 42px;
+}
+
+.items {
+  margin-right: 0;
+}
+
+.footers {
+  padding: 0 160px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hr {
+  Width: 1592px;
+  Height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-top: 50px;
+}
+
+.ul-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 160px;
+  padding-top: 50px;
+}
+
+.fot-text {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.fot-icon {
+  margin-left: 20px;
+}
+
+.fot-3 {
+  margin-top: 108px;
+}
+
+.footer img {
+  width: 750px;
+}
